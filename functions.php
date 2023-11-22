@@ -491,7 +491,30 @@ function genesis_block_theme_filter_footer_text() {
 	} else {
 		// Otherwise show the fallback theme text.
 		/* translators: %s: child theme author URL */
-		$footer_text = sprintf( esc_html__( ' Theme by %1$s.', 'genesis-block-theme' ), '<a href="https://www.studiopress.com/" rel="noreferrer noopener">StudioPress</a>' );
+		$footer_text = sprintf( '
+		<div class="footer-bottom-column">
+			<div class="footer-bottom-left">
+				<p>
+				© Rampart Range Veterinary Hospital - All Right Reserved. 
+				</p>
+			</div>
+			<div class="footer-bottom-right">
+				<p>
+				Folow us
+					<a class="footer-bottom-icon">
+						<img src="http://localhost/rrv/wp-content/uploads/2023/11/Vector.png">
+					</a>
+					<a class="footer-bottom-icon">
+						<img src="http://localhost/rrv/wp-content/uploads/2023/11/FB.png">
+					</a>
+					<a class="footer-bottom-icon">
+						<img src="http://localhost/rrv/wp-content/uploads/2023/11/Vector.png">
+					</a>
+				</p>
+			</div>
+		</div>
+		
+		' );
 	}
 
 	return wp_kses_post( $footer_text );

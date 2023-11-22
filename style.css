@@ -416,7 +416,6 @@ textarea {
 	font-size: 100%;
 	margin: 0;
 	vertical-align: baseline;
-	*vertical-align: middle;
 	-webkit-appearance: none;
 	box-sizing: border-box;
 }
@@ -620,7 +619,6 @@ select {
 	font-size: 100%;
 	margin: 0;
 	vertical-align: baseline;
-	*vertical-align: middle;
 	width: 100%;
 	-webkit-appearance: normal;
 	box-sizing: border-box;
@@ -913,6 +911,41 @@ Navigation
 	transition: transform 400ms linear;
 	transform: translateY(-200%);
 }
+
+.contact-nav-btn{
+	text-align: center;
+    width: 205px;
+	border-radius: 50px;
+	border: 2px solid black;
+	background: #104C7D;
+	color: #FFF !important;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.contact-nav-btn a{
+	color: #FFF !important;
+}
+
+.pharmacy-nav-btn, .meet-staff-nav, .services-nav-btn{
+	text-align: center;
+}
+
+#menu-main-menu-1 {
+    list-style: none;
+    overflow: hidden;
+	width: 1150px;
+  }
+
+  #menu-main-menu-1 li {
+    float: left;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+  #menu-main-menu-1 li:last-child {
+    float: right;
+    margin-right: 0; /* Remove the right margin for the last li element */
+  }
 
 @media only screen and (max-width: 1000px) {
 	.home-nav {
@@ -3046,7 +3079,8 @@ Header
 	width: 100%;
 	position: relative;
 	z-index: 100;
-	background: #f2f2f2;
+	background: #FFFFFF;
+
 }
 
 body.admin-bar .is-sticky .site-header {
@@ -3054,7 +3088,7 @@ body.admin-bar .is-sticky .site-header {
 }
 
 .site-identity {
-	padding: 30px 0;
+	padding: 30px;
 	position: relative;
 	z-index: 8;
 }
@@ -3167,12 +3201,9 @@ body.admin-bar .is-sticky .site-header {
 	display: block;
 }
 
-.nav-logo{
-	
-}
 
 a.custom-logo-link {
-    width: 40%;
+    width: 60%;
     height: 20%;
     display: flex;
 }
@@ -3195,7 +3226,6 @@ Content
 
 .container {
 	margin: 0 auto;
-	padding: 0 2%;
 	display: block;
 }
 /* 
@@ -3531,7 +3561,6 @@ Posts
 Footer
 -------------------------------------------------------------- */
 .site-footer {
-	padding: 0 0 2.5% 0;
 	font-size: 17px;
 	line-height: 1.5;
 	display: block;
@@ -3539,7 +3568,7 @@ Footer
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	background: #f2f2f2;
+	background: #FFFFFF;
 	color: #272c30;
 }
 
@@ -3550,6 +3579,30 @@ Footer
 .site-footer a:hover {
 	color: #272c30;
 	text-decoration: underline;
+}
+
+.footer-bottom-column{
+	padding-top: 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer-bottom-left{
+	width: 50%;
+}
+
+.footer-bottom-right{
+	width: 50%;
+}
+
+.footer-bottom-icon{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 
 @media (max-width: 1000px) {
@@ -3599,9 +3652,10 @@ Footer
 }
 
 .footer-widgets {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	width: 100%;
-	margin-bottom: 6%;
+	margin-bottom: 1%;
 }
 
 @media (max-width: 1000px) {
@@ -3612,10 +3666,9 @@ Footer
 }
 
 .footer-widgets .footer-column {
-	width: 30.6%;
-	float: left;
-	padding-top: 7%;
+	padding-top: 1%;
 	margin-right: 4%;
+	margin-left: 4%;
 	display: inline-block;
 	vertical-align: top;
 	transition: 0.2s ease-in-out;
@@ -3708,14 +3761,13 @@ Footer
 }
 
 .footer-bottom {
+	padding: 20px;
 	display: inline-block;
 	width: 100%;
-	padding-top: 4%;
+	background: #212529;
+	color: #FFF;
 }
 
-.footer-widgets + .footer-bottom {
-	border-top: dotted 1px rgba(255, 255, 255, 0.4);
-}
 
 @media (max-width: 1000px) {
 	.footer-widgets + .footer-bottom {
@@ -3723,16 +3775,12 @@ Footer
 	}
 }
 
-.footer-tagline {
-	display: inline-block;
-	width: 40%;
-}
 
 @media (max-width: 1000px) {
 	.footer-tagline {
 		float: none;
 		width: 100%;
-		margin-top: 15px;
+		margin-top: 5px;
 	}
 }
 
