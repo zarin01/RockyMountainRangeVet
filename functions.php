@@ -107,7 +107,7 @@ if ( ! function_exists( 'genesis_block_theme_setup' ) ) :
 				'header-text' => array( 'titles-wrap' ),
 				'size'        => 'genesis-block-theme-logo',
 				'id'            => 'nav-logo',
-				'before_widget' => '<div id="nav-logo" class="nav-logo">',
+				'before_widget' => '<div class="nav-logo">',
 				'after_widget'  => '</div>',
 			)
 		);

@@ -3167,10 +3167,13 @@ body.admin-bar .is-sticky .site-header {
 	display: block;
 }
 
+.nav-logo{
+	
+}
 
 a.custom-logo-link {
-    width: 60%;
-    height: 30%;
+    width: 40%;
+    height: 20%;
     display: flex;
 }
 
