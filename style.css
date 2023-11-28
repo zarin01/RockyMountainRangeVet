@@ -916,7 +916,7 @@ Navigation
 	text-align: center;
     width: 205px;
 	border-radius: 50px;
-	border: 2px solid black;
+	border: 1px solid black;
 	background: #104C7D;
 	color: #FFF !important;
 	padding-right: 5px;
@@ -3361,14 +3361,10 @@ Content
 }
 
 #page {
-	padding-top: 6%;
+	padding-top: 1%;
 }
 
-@media (max-width: 600px) {
-	#page {
-		padding-top: 8%;
-	}
-}
+
 
 .site-content {
 	display: inline-block;

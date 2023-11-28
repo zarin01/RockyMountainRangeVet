@@ -549,3 +549,4 @@ function genesis_block_theme_is_block_editor() {
 	// This is a Gutenberg Block Editor page.
 	return true;
 }
+
