@@ -16,6 +16,9 @@ Requires PHP: 7.1
 /* --------------------------------------------------------------
 Reset
 -------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
 /* stylelint-disable selector-list-comma-newline-after  */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	/* stylelint-disable max-line-length */
@@ -129,7 +132,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Lato', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	line-height: 1.2;
 	margin-bottom: 3%;
@@ -271,6 +274,10 @@ big {
 
 .highlight {
 	background: #fff198;
+}
+
+.lora-font-family{
+	font-family: 'Lato', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* --------------------------------------------------------------
