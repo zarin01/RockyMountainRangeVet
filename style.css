@@ -3983,8 +3983,6 @@ Homepage
   
 }
 
-
-
 .homepage-header{
 	position: relative;
 	overflow: hidden;
@@ -4002,7 +4000,7 @@ Homepage
 .slant-grey-background{
 	position: relative;
 
-	background-color: #fff; /* Set default background color */
+	background-color: #fff;
 	overflow: hidden;
 }
 
@@ -4021,14 +4019,14 @@ Homepage
 .footer-cta-parent{
 	position: relative;
 	overflow: visible !important;
-	z-index: 1; /* Set a z-index for the container */
+	z-index: 1;
 }
 
 .footer-cta-image{
 	width: 100%;
-      position: relative;
-      top: -10px; /* Adjust as needed for the amount you want the image to go above the div */
-      bottom: 10px;
+    position: relative;
+    top: -13px;
+    bottom: 10px;
 	z-index: 1;
 	height: 550px;
 }
@@ -4041,6 +4039,20 @@ Homepage
 .text-padding-left{
 	padding-left: 150px;
 	padding-right: 75px;
+}
+
+.we-can-do-cta{
+	height: 1050px;
+	margin-bottom: 50px;
+}
+
+.we-can-do-cta-img{
+	width: 100%;
+    position: relative;
+    top: -10px;
+    bottom: 10px;
+	z-index: 1;
+	height: 550px;
 }
 
 /*--------------------------------------------------------------
@@ -4084,4 +4096,15 @@ Gravity Form
 
 .name_first input, .name_last input, .ginput_container_email input, .ginput_container_phone input, .ginput_container_textarea textarea{
 	border: #D9D9D9 2px solid !important;
+}
+
+/*--------------------------------------------------------------
+Internal Pages
+--------------------------------------------------------------*/
+
+.internal-page-background {
+    background: linear-gradient(257.17deg, rgba(13, 65, 111, 0.8) 60.56%, rgba(77, 171, 247, 0.5) 136.88%),
+                url('http://localhost/rrv/wp-content/uploads/2023/12/internal-page-heading.png')!important;
+    background-position: center center !important;
+    background-size: cover !important;
 }
