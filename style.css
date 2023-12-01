@@ -3977,8 +3977,8 @@ Homepage
 .main-header-image-top{
 	width: 100%;
 	position: relative;
-	top: -10px; /* Adjust as needed for the amount you want the image to go above the div */
-	bottom: -20px; /* Adjust as needed for the amount you want the image to go below the div */
+	top: -10px;
+	bottom: -20px;
 	z-index: 999 !important;
   
 }
@@ -3992,3 +3992,93 @@ Homepage
 	height: 630px;
 	overflow: visible !important;
 }
+
+
+.image-cta{
+	padding-top: 30px;
+}
+
+
+.slant-grey-background{
+	position: relative;
+
+	background-color: #fff; /* Set default background color */
+	overflow: hidden;
+}
+
+.slant-grey-background:before{
+	content: '';
+      position: absolute;
+      top: -80px;
+      left: 0;
+      width: 100%;
+      height: 1000px;
+      background: linear-gradient(to bottom right, #fff 50%, #E9ECEF 50%);
+      transform-origin: 100% 0;
+      transform: skewY(330deg);
+}
+
+.footer-cta-parent{
+	position: relative;
+	overflow: visible !important;
+	z-index: 1; /* Set a z-index for the container */
+}
+
+.footer-cta-image{
+	width: 100%;
+      position: relative;
+      top: -10px; /* Adjust as needed for the amount you want the image to go above the div */
+      bottom: 10px;
+	z-index: 1;
+	height: 550px;
+}
+
+.above-footer-cta{
+	height: 385px;
+	margin-top: 50px;
+}
+
+.text-padding-left{
+	padding-left: 150px;
+	padding-right: 75px;
+}
+
+/*--------------------------------------------------------------
+Testimonials
+--------------------------------------------------------------*/
+
+.tss-carousel-main .swiper-arrow, .tss-carousel .swiper-arrow{
+	border: #FFF;
+	background-color: #FFF;
+}
+
+.rttss-right-open{
+	border: #FFF;
+	background-color: #FFF;
+}
+
+.rttss-right-open::before{
+	color: #0072e5;
+}
+
+.rttss-left-open{
+	border: #FFF;
+	background-color: #FFF;
+}
+
+.rttss-left-open:before{
+	color: #0072e5;
+}
+.item-content-wrapper::before{
+	display: none;
+}
+
+.item-content-wrapper{
+	text-align: center !important;
+	background-color: #FFF !important;
+}
+
+/*--------------------------------------------------------------
+Gravity Form
+--------------------------------------------------------------*/
+
